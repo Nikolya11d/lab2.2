@@ -44,9 +44,10 @@ arr[i].square);
                                         key=0;
                                 }
                         }
-                        if(key){ printf("НИЧЕГО НЕ НАШЛОСЬ\n\n");
-				{while((getchar())!='\n');
-                        return 0;}
+                        if(key){ 
+				printf("НИЧЕГО НЕ НАШЛОСЬ\n\n");
+				while((getchar())!='\n');
+                        	return ;
 			return;}
 			break;
                 }
@@ -64,9 +65,10 @@ arr[i].square);
                                         key=0;
                                 }
                         }
-                        if(key){ printf("НИЧЕГО НЕ НАШЛОСЬ\n\n");
-			{while((getchar())!='\n');
-			return 0;}
+                        if(key){ 
+				printf("НИЧЕГО НЕ НАШЛОСЬ\n\n");
+				while((getchar())!='\n');
+				return ;
 			return;}
                         break;
                 }
